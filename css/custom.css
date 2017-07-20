@@ -4,7 +4,8 @@
 .cv{text-align:right;}
 .cv a button{background-color:#17bed2;border:none;color:#fff;}
 .cv a button span{color:#fff;}
-.cv p{font-size:18px;color:#fff;text-align:right;}
+.cv a:hover button, .cv a:hover button span{background-color:#fff;color:#17bed2;}
+.cv p{font-size:17px;color:#fff;text-align:right;padding-top:80px;}
 
 /*Portfolio*/
 
