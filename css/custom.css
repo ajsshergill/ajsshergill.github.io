@@ -1,6 +1,10 @@
 .promo-block{background-color:rgba(0,0,0,0.5);}
 .header .logo{width:350px;}
 .header .logo img{width:100%;margin-top:-17px;}
+.cv{text-align:right;}
+.cv a button{background-color:#17bed2;border:none;color:#fff;}
+.cv a button span{color:#fff;}
+.cv p{font-size:18px;color:#fff;text-align:right;}
 
 /*Portfolio*/
 
