@@ -71,8 +71,8 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-main" src="img/logo1.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark1.png" alt="Asentus Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -135,61 +135,161 @@
         <div align="center">
             <button class="btn btn-default filter-button" data-filter="all">All</button>
             <button class="btn btn-default filter-button" data-filter="web">Web Designs</button>
-            <button class="btn btn-default filter-button" data-filter="mobile">Mobile Apps</button>
+            <button class="btn btn-default filter-button" data-filter="mobile">App Designs</button>
             <button class="btn btn-default filter-button" data-filter="present">Presentations</button>
             <button class="btn btn-default filter-button" data-filter="graphic">Graphic Designs</button>
         </div>
         <br/>
 
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
+                <img id="myImg" src="portfolio/website/philadelphia-water.jpg" class="img-responsive hover-shadow">
+            </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="imgModal01">
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
 
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile">
+                <img src="portfolio/app/desktop-tutor-together.png" class="img-responsive hover-shadow">
+            </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                <img src="portfolio/website/Procorre.jpg" class="img-responsive hover-shadow">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphic">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive hover-shadow">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter present">
+                <img src="portfolio/presentations/atlas/1.jpg" class="img-responsive hover-shadow">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphic">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive hover-shadow">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter present">
+                <img src="portfolio/presentations/esims/1.jpg" class="img-responsive hover-shadow">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphic">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive hover-shadow">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphic">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive hover-shadow">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive hover-shadow">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter present">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive hover-shadow">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+                <img src="portfolio/app/mobile-aiesec/1-Home.png" onclick="openModal();currentSlide(1)"  class="img-responsive">
             </div>
+			
+			<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile">
+                <img src="portfolio/app/mobile-aiesec/1-Home.png" class="img-responsive hover-shadow">
+            </div>
+			
+			<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile">
+                <img src="portfolio/app/desktop-procorre/1.jpg" onclick="openModal();currentSlide(1)" class="img-responsive hover-shadow">
+            </div>
+			
+			
+<!--AppDesigns-->
+<div id="myMobile1" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+    <div class="mySlides">
+        <img src="portfolio/app/mobile-aiesec/1-Home.png">
+		<img src="portfolio/app/mobile-aiesec/2-Splash.png">
+		<img src="portfolio/app/mobile-aiesec/3-Login.png">
+		<img src="portfolio/app/mobile-aiesec/4-ForgotPassword.png">
+    </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphic">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter present">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+</div> 
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphic">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+<div id="myApp" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter present">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+    <div class="mySlides">
+      <div class="numbertext">1 / 11</div>
+        <img src="portfolio/app/desktop-procorre/1.jpg" style="width:100%">
+    </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphic">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 11</div>
+        <img src="portfolio/app/desktop-procorre/2.jpg" style="width:100%">
+    </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter graphic">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 11</div>
+        <img src="portfolio/app/desktop-procorre/3.jpg" style="width:100%">
+    </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 11</div>
+        <img src="portfolio/app/desktop-procorre/4.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">5 / 11</div>
+        <img src="portfolio/app/desktop-procorre/5.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">6 / 11</div>
+        <img src="portfolio/app/desktop-procorre/6.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">7 / 11</div>
+        <img src="portfolio/app/desktop-procorre/7.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">8 / 11</div>
+        <img src="portfolio/app/desktop-procorre/8.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">9 / 11</div>
+        <img src="portfolio/app/desktop-procorre/9.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">10 / 11</div>
+        <img src="portfolio/app/desktop-procorre/10.jpg" style="width:100%">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">11 / 11</div>
+        <img src="portfolio/app/desktop-procorre/11.jpg" style="width:100%">
+    </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter present">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter mobile">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+</div> 
+			
+			
         </div>
     </div>
 </section>
@@ -269,6 +369,71 @@ $(this).addClass("active");
 
 });
 </script>
+
+<!--ImagePopup-->
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("imgModal01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+<!--ImgSlides-->
+<script>
+function openModal() {
+  document.getElementById('myApp').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myApp').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
     </body>
     <!-- END BODY -->
 	
