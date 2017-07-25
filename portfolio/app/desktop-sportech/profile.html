@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<title>Sportech - Account - Profile</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap Start -->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/ie_split3.css">
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+<!-- <link href="http://cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css" type="text/css" rel="stylesheet">
+<script src="http://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js" language="javascript" type="text/javascript"></script>-->
+
+<!-- Bootstrap End -->
+
+<!-- DatePicker Start -->
+<!--<link href="css/bootstrap-datetimepicker.css" rel="stylesheet"> -->
+<!-- DatePicker End -->
+
+<script>
+$('#myForm').validator()
+</script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="main">
+	
+  <!--Header Start-->
+  <header class="navbar navbar-fixed-top bg-light">
+    <div class="navbar-branding"><span id="toggle_sidemenu_l" class="fa fa-bars"></span></div>
+    <div class="logo"><img src="images/logo.png" width="227" height="65"></div>
+    <div class="menu-right">
+        <div class="user-name"><strong>John Doe</strong> <br> Administrator</div>
+        <div class="btn-group">
+        <a data-toggle="dropdown" class="user-icon" href="#"></a>
+           <ul role="menu" class="dropdown-menu dropdown-menu-right arrow_box">
+              <li><a class="account" href="profile.html">Account</a></li>
+              <li><a class="profile" href="profile.html">Profile</a></li>
+              <li><a class="change-pass" href="profile.html">Change Password</a></li>
+              <!--<li class="divider"></li> -->
+              <li><a class="logout" href="index.html">Logout</a></li>
+           </ul>
+        </div>
+    </div>
+  </header>
+  <!--Header End-->
+  
+  <!--Content Start-->
+  <section id="content_wrapper">
+    <section id="content" class="animated fadeIn Profile">
+        <div class="col-lg-12">
+        	<!--Breadcrumb Start-->
+        	<ul class="breadcrumb">
+                <li><a href="#"><img width="16" height="16" src="images/icon-home.png"></a></li>
+                <li><a href="#">Account</a></li>
+                <li class="active">Profile</li>
+            </ul>
+            <!--Breadcrumb End-->
+            
+            <!--Form Start-->
+			
+            <div class="form">
+            	<form class="form-horizontal" role="form">        
+                <ul>
+                    <li>
+                        <label class="control-label" for="FirstName">First Name <b class="colun">:</b></label>
+                        <div class="col-sm-4"><input type="text" id="FirstName" class="form-control"></div>
+						<div class="help-block with-errors"></div>
+                    </li>
+					
+					<li>
+                        <label class="control-label" for="LirstName">Last Name <b class="colun">:</b></label>
+                        <div class="col-sm-4"><input type="text" id="LirstName" class="form-control"></div>
+						<div class="help-block with-errors"></div>
+                    </li>
+					
+					<li>
+                        <label class="control-label" for="Email">Email <b class="colun">:</b></label>
+                        <div class="col-sm-4"><input type="email" class="form-control" id="inputEmail" data-error="Bruh, that email address is invalid" required>
+						<span class="help-block">Example: example@gmail.com</span>
+                    </li>
+					
+					<li>
+                        <label class="control-label" for="Phone">Mobile <b class="colun">:</b></label>
+                        <div class="col-sm-4">
+							<input id="phonenum" class="form-control" type="tel" pattern="^\d{4}-\d{3}-\d{4}$" required >
+							<span class="help-block">Format: 0000-000-0000</span>
+						</div>
+                    </li>
+					
+					<li class="li-divider">
+                        <label class="control-label" for="LastLogin">Last Login <b class="colun">:</b></label>
+                        <div class="col-sm-4"><input type="text" id="LastLogin" placeholder="08/08/2015 - 4:00 pm" disabled class="form-control"></div>
+						<div class="help-block with-errors"></div>
+                    </li>
+                    
+                    <li>
+                        <label class="control-label" for="ChangePassword"><strong>Change Password</strong></label>
+                        <div class="col-sm-4"></div>
+                    </li>
+					
+					<li>
+                        <label class="control-label" for="NewPassword">New Password <b class="colun">:</b></label>
+                        <div class="col-sm-4"><input type="password" data-minlength="6" class="form-control" id="inputPassword"  required>
+						<span class="help-block">Minimum of 6 characters</span></div>
+                    </li>
+                    
+                    <li>
+                        <label class="control-label" for="ConfirmPassword">Confirm Password <b class="colun">:</b></label>
+                        <div class="col-sm-4"><input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" required>
+						<div class="help-block with-errors"></div></div>
+                    </li>
+                    
+                    <li>
+                        <label for="firstname">
+                         &nbsp;
+                        </label>
+
+                        <div class="col-sm-4">
+                            <button class="btn btn-default" type="submit">Save</button>
+                        </div>
+                        
+                    </li>
+                </ul>
+				</form>
+            </div>
+            <!--Form End-->
+			
+			
+            
+            <!--TableGrid Form Start-->
+            	<!--<div class="no-padd form"></div> -->
+            <!--TableGrid Form End-->
+
+            <!--TableGrid Start-->
+            <!--<div class="table-responsive SystemLog"></div> -->
+            <!--TableGrid End-->
+            
+            <!--Pagination Start-->
+            	<!--<div class="no-padd col-md-12"></div> -->
+            <!--Pagination End-->
+
+        </div>
+    </section>
+  </section>
+  <!--Content End-->
+  
+  <!--Sidebar Start-->
+  <aside id="sidebar_left" class="nano nano-primary">
+    <div class="nano-content">
+      <ul class="nav sidebar-menu">
+      
+        <li><a class="accordion-toggle" href="#"> <span class="fa fa-fire TipsManagement"></span> <span class="sidebar-title">Tips Management</span> <span class="caret"></span></a>
+          <ul class="nav sub-nav">
+            <li><a href="expert-tips.html" class="">Expert Tips</a></li>
+            <li><a href="#AddExpertTip" class="">Add Expert Tip</a></li>
+          </ul>
+        </li>
+        
+        <li><a class="accordion-toggle" href="#"> <span class="fa fa-fire UserManagement"></span> <span class="sidebar-title">User Management</span> <span class="caret"></span></a>
+          <ul class="nav sub-nav">
+            <li><a href="users.html" class="">Users</a></li>
+            <li><a href="#AddUser" class="">Add User</a></li>
+          </ul>
+        </li>
+        
+        <li><a class="accordion-toggle" href="#"> <span class="fa fa-fire ExpertManagement"></span> <span class="sidebar-title">Expert Management</span> <span class="caret"></span></a>
+          <ul class="nav sub-nav">
+            <li><a href="tip-experts.html" class="">Tip Experts</a></li>
+            <li><a href="#AddExpert" class="">Add Expert</a></li>
+          </ul>
+        </li>
+        
+        <li><a class="accordion-toggle menu-open" href="#"> <span class="fa fa-fire Account"></span> <span class="sidebar-title">Account</span> <span class="caret"></span></a>
+          <ul class="nav sub-nav">
+            <li><a href="profile.html" class="active">Profile</a></li>
+          </ul>
+        </li>
+        
+        <li><a class="accordion-toggle" href="#"> <span class="fa fa-fire SystemManagement"></span> <span class="sidebar-title">System Management</span> <span class="caret"></span></a>
+          <ul class="nav sub-nav">
+            <li><a href="system-setting.html" class="">System Setting</a></li>
+            <li><a href="system-log.html" class="">System Log</a></li>
+          </ul>
+        </li>
+        
+        <li><a class="accordion-toggle" href="#"> <span class="fa fa-fire Transactions"></span> <span class="sidebar-title">Transactions</span> <span class="caret"></span></a>
+          <ul class="nav sub-nav">
+            <li><a href="activity.html" class="">Activity</a></li>
+            <li><a href="ticket-settlement.html" class="">Ticket Settlement</a></li>
+          </ul>
+        </li>
+      
+      </ul>
+    </div>
+  </aside>
+  <!--Sidebar End-->
+  
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/utility.js"></script> 
+<script type="text/javascript" src="js/main.js"></script> 
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	"use strict";
+	// Init Theme Core      
+	Core.init({
+		sbm: "sb-l-c",
+	});
+});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+@charset "utf-8";
+html{height:100%; background:#fff;}
+body{width:100%; height:100%; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:14px; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%; font-size-adjust:100%;}
+a{border:solid 0px #ccc; outline:solid 0px #ccc !important;}
+a:hover, a:focus{border:solid 0px #ccc; outline:solid 0px #ccc !important; color:#ad2127; text-decoration:none;}
+.alignL{text-align:left;}
+.alignC{text-align:center;}
+.alignR{text-align:right;}
+.no-bdr{border:solid 0px #ccc !important;}
+.no-bg{background:none !important;}
+
+.bgmain{background:url(../images/bgmain.jpg) no-repeat center top fixed; min-height:inherit;}
+.wapper{width:100%; height:auto; margin:0; padding:0; float:left;}
+.header{width:100%; height:auto; margin:0; padding:0; float:left; background:#ad2127; color:#fff;}
+.container{width:100%; height:auto; margin:0; padding:0; float:left;}
+
+/*Form*/
+input[type="text"], input[type="email"], input[type="phone"], input[type="password"], input[type="tel"], select{color:#808080; border:solid 1px #ccc; margin:0 0 5px 0; padding:5px; border-radius:0; height:32px; font-size:12px;}
+label{font-weight:100; font-size:13px;}
+input[type="text"].input-min, input[type="text"].input-max{width:100px;}
+select option{padding:5px; border-bottom:solid 1px #f5f5f5;}
+.help-block{width:100%; float:left; font-size:11px;}
+
+.colun{width:auto; height:auto; margin:0 10px 0 0; padding:0; float:right;}
+.icon-info{width:12px; height:12px; margin:0; padding:0; float:none;}
+
+.form{width:100%; height:auto; margin:0 0 10px 0; padding:0; float:left;}
+.form ul{width:100%; height:auto; margin:0 0 0px 0; padding:0; float:left; list-style:none;}
+.form ul li{width:100%; height:auto; margin:0 0 10px 0; padding:0; float:left; list-style:none;}
+
+.input-group-addon{border-radius:0; top:0;}
+.datetimepicker{margin-top:10px;}
+.date-picker.custom-cal-icon{width:120px; background:url(../images/icons-input.png) no-repeat 90px -82px;}
+
+.date-form { margin: 10px; }
+label.control-label span { cursor: pointer; }
+
+.ExpertTips .td-Action .btn{padding:1px 3px; font-size:10px;}
+
+/*.SystemSetting label, .Profile label{margin:0 0px 0 0; padding:6px 0 0 0;}
+.SystemSetting label{width:180px; float:left;}
+.SystemSetting .form-control{width:100px; float:left;}
+.SystemSetting .col-sm-4{width:300px;}
+.SystemSetting .checkbox{padding:0 0 0 34px;}
+.SystemSetting .checkbox label{width:auto; margin:0 30px 0 0;}
+.SystemSetting .checkbox label input{width:auto; margin-left:-18px;}*/
+
+.SystemSetting .formlabel, .Profile label{margin:0 0px 0 0; padding:8px 0 0 0;}
+.SystemSetting .formlabel{width:180px; float:left;}
+.SystemSetting .checkbox label{margin-right:10px; margin-top:7px;}
+
+.Profile label{width:150px; float:left;}
+.Profile .form-control{width:160px; float:left;}
+.Profile .col-sm-4{width:200px;}
+
+.icon-calendar span span, .icon-track span span, .icon-bet span span, .icon-race span span{background:transparent; color:transparent;}
+.icon-calendar span, .icon-track span, .icon-bet span{width:13px; height:32px; float:left;}
+.icon-calendar input[type="text"]{width:100px;}
+.icon-track select{width:180px;}
+.icon-bet select{width:80px;}
+.icon-race input[type="text"]{width:30px;}
+.icon-calendar span{background:url(../images/icon-calendar.png) no-repeat center center; background-color:#eeeeee;}
+.icon-track span{background:url(../images/icon-track.png) no-repeat center center; background-color:#eeeeee;}
+.icon-bet span{background:url(../images/icon-bet.png) no-repeat center center; background-color:#eeeeee;}
+.icon-race span{background:url(../images/icon-race.png) no-repeat center center; background-color:#eeeeee;}
+
+.race{width:100%; height:auto; margin:0 0 0px 0; padding:0; float:left; list-style:none;}
+.race li{width:100%; height:auto; margin:0 0 10px 0; padding:0; float:left; list-style:none;}
+.race li .input-group-addon{width:39px;}
+.race-numb{width:auto; height:auto; margin:0 0 0px 0; padding:0 ; float:left; list-style:none; border:solid 1px #ccc; border-bottom:solid 0px #ccc; border-right:solid 0px #ccc;}
+.race-numb li{width:auto; height:auto; margin:0 0 0 0; padding:0 !important; float:left; list-style:none; border-bottom:solid 1px #ccc; border-right:solid 1px #ccc;}
+.race-numb li a{width:30.7px; height:30px; margin:0 0 0 0; padding:5px 0px; float:left; background:#fff; font-size:12px; font-weight:100; color:#555555; line-height:21px; text-align:center;}
+.race-numb li a:hover, .race-numb li a:focus, .race-numb li.active a{background:#eeeeee;}
+
+.li-divider{border-bottom:solid 1px #d8d8d8; margin-bottom:10px !important; padding-bottom:10px !important;}
+
+/*Buttons*/
+.login-btn, input[type="button"]{width:auto; height:auto; margin:0; padding:10px 30px; font-size:20px; background:#f3f3f3; color:#000; border:solid 1px #cccccc; float:right;}
+
+/*Icons*/
+.login-id, .login-password{background-image:url(../images/icons-input.png); background-repeat:no-repeat; background-color:#fff;}
+.login-id{background-position:15px 14px;}
+.login-password{background-position:15px -32px;}
+
+/*Login*/
+.login-main{width:510px; height:auto; margin:80px auto 0 auto; padding:0; float:none;}
+.login-box{width:100%; height:auto; margin:0 0 20px 0; padding:0; float:left; box-shadow:0px 0px 10px 1px #242424; -webkit-box-shadow:0px 0px 10px 1px #242424; -moz-box-shadow:0px 0px 10px 1px #242424; -o-box-shadow:0px 0px 10px 1px #242424; border-radius:6px 6px}
+.login-footer{width:100%; height:auto; margin:0; padding:0; float:left; text-align:center;}
+
+.login-box .login-header{width:100%; height:auto; margin:0 0 0 0; padding:10px 10px 10px 20px; float:left; background:#ad2127; color:#fff; border-radius:6px 6px 0 0;}
+.login-box .login-content{width:100%; height:auto; margin:0 0 0 0; padding:10px 25px; float:left; background:#fff; color:#000; border-radius:0 0 6px 6px;}
+h1{width:100%; height:auto; margin:10px 0 30px 0; padding:0; float:left; color:#3a3a3a; font-size:40px; font-weight:100;}
+h2{width:100%; height:auto; margin:10px 0 30px 0; padding:0; float:left; color:#3a3a3a; font-size:18px; font-weight:100;}
+.login-box .login-content ul{width:100%; height:auto; margin:0; padding:0; float:left; list-style:none;}
+.login-box .login-content ul li{width:100%; height:auto; margin:0 0 10px 0; padding:0; float:left; list-style:none;}
+.login-box .login-content ul li input[type="text"], .login-box .login-content ul li input[type="password"]{width:100%; height:auto; font-size:20px; padding:10px 10px 10px 50px;}
+.forgot-password{color:#000; margin:10px 0 0 0; float:left; font-size:20px; font-weight:normal;}
+
+/*Popup Forgot Password*/
+.forgot-ul{width:400px; height:auto; margin:0 auto 10px auto; padding:0; float:none; list-style:none;}
+.forgot-ul li{width:100%; height:auto; margin:0; padding:0; float:none; list-style:none;}
+.forgot-ul li label{width:100%; height:auto; margin:0 0 5px 0; padding:0; float:none;}
+
+.Inner .modal-body .track{width:auto; height:auto; margin:0; padding:0; float:left; font-size:16px;}
+.Inner .modal-body .price{width:auto; height:auto; margin:0; padding:0; float:none; text-align:right;}
+.Inner .modal-body .price .tool{width:auto; height:auto; margin:0 7px 0 0; padding:2px 4px; font-size:10px; float:left; background:#eeeeee; border:solid 1px #ccc;}
+
+.form-add-user{width:305px; height:auto; margin:0 auto; padding:0; float:none; list-style:none;}
+.form-add-user li{width:100%; height:auto; margin:0 0 5px 0; padding:0; float:left; list-style:none;}
+.form-add-user li label{width:125px; height:auto; margin:0 0 5px 0; padding:0; float:left; line-height:30px;}
+.form-add-user li label span{width:auto; height:auto; margin:0 15px 0 0; padding:0; float:right;}
+.form-add-user li .help-block{width:auto; height:auto; margin:0 0 0 125px; padding:0; float:left;}
+
+.tool{position:relative; background:#eeeeee; border:1px solid #ccc;}
+.tool:after, .tool:before{left:100%; top:50%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.tool:after{border-color:rgba(238, 238, 238, 0); border-left-color:#eeeeee; border-width:5px; margin-top:-5px;}
+.tool:before{border-color:rgba(204, 204, 204, 0); border-left-color:#ccc; border-width:6px;	margin-top:-6px;}
+
+.table-track{margin-top:-10px;}
+.table-track tbody tr td{padding:10px 0;}
+.table-track tbody tr td table tbody tr td{padding:0;}
+.table-track tbody tr td table tbody tr td div{border-right:1px solid #dedede; float:left;}
+.table-track tbody tr td table tbody tr td .date{}
+.table-track tbody tr td table tbody tr td .expert{}
+.table-track tbody tr td table tbody tr td .total{padding-right:10px;}
+.table-track tbody tr td table tbody tr td .shares-reserved{padding-right:10px;}
+.table-track tbody tr td table tbody tr td .shares-left{padding-right:10px;}
+.table-track tbody tr td table tbody tr td label{width:100%; height:auto; margin:0; padding:0; font-size:10px;}
+
+.RaceTrackBet{width:100%; margin:0; padding:0; float:left; list-style:none;}
+.RaceTrackBet li{width:auto; margin:0; padding:0 30px 0 0; float:left; list-style:none; display:inline;}
+.RaceTrackBet li label{width:100%; margin:0 0 5px 0; padding:0; float:left;}
+.RaceTrackBet li.RaceDate{width:162px; margin:0 30px 0 0; padding:0; float:left;}
+.RaceTrackBet li.Track{width:206px; margin:0 30px 0 0; padding:0; float:left;}
+.RaceTrackBet li.Bet{width:117px; margin:0 0 0 0; padding:0; float:left;}
+.RaceTrackBet li.RaceDate input[type="text"]{width:120px;}
+.RaceTrackBet li.Track select{width:160px}
+.RaceTrackBet li.Bet select{width:78px;}
+
+.TicketSettlement .th-ExternalCouponID, .TicketSettlement .td-ExternalCouponID{width:95px; white-space:nowrap;}
+.TicketSettlement .th-CouponID, .TicketSettlement .td-CouponID{width:90px; white-space:nowrap;}
+.TicketSettlement .th-AccountTransactionID, .TicketSettlement .td-AccountTransactionID{width:104px; white-space:nowrap;}
+.TicketSettlement .th-BWStatus, .TicketSettlement .td-BWStatus{}
+.TicketSettlement .th-CustomerID, .TicketSettlement .td-CustomerID{width:65px; white-space:nowrap;}
+.TicketSettlement .th-Bought, .TicketSettlement .td-Bought{width:110px; white-space:nowrap;}
+.TicketSettlement .th-PrizeCheckedDate, .TicketSettlement .td-PrizeCheckedDate{width:130px; white-space:nowrap;}
+.TicketSettlement .th-Status, .TicketSettlement .td-Status{width:95px; white-space:nowrap;}
+
+.TicketResettlement .modal-body{background:url(../images/bg-ticket.png) repeat left top;}
+.TicketResettlement .modal-body label{color:#666;}
+.TicketResettlement .modal-body .race{border:solid 1px #ccc; margin:0 0 10px 0;}
+.TicketResettlement .modal-body .race tbody tr td{border:solid 1px #ccc; margin:0 0 10px 0; padding:2px 5px; background-color:#fff;}
+.TicketResettlement .modal-body .track{text-transform:uppercase;}
+.TicketResettlement .modal-body .race-date, .TicketResettlement .modal-body .track{width:250px; height:30px; float:none; line-height:28px; border:solid 1px #ccc; margin:0 0 10px 0; padding:0 5px 0 0; background-color:#fff;}
+.TicketResettlement .modal-body .race-date label, .TicketResettlement .modal-body .track label{background-color:#eeeeee; border-right:solid 1px #ccc; margin:0 5px 0 0; padding:0 5px; float:left; text-transform:none;}
+
+.TicketSettlement .form-gird  .betware{width:215px;}
+.label-data{border:solid 1px #ccc; border-bottom:solid 0px #ccc; font-size:12px; margin:10px 0 0 0;}
+.label-data tbody tr td{border-bottom:solid 1px #ccc; padding:2px 6px;}
+.label-data tbody tr td label{width:100%; margin:0;}
+.label-data tbody tr td span{float:right;}
+.label-data td.tdleft{width:25%; border-right:solid 1px #ccc; background-color:#eeeeee;}
+.label-data td.tdright{width:75%; border-right:solid 1px #ccc; background-color:#fff;}
+
+/*------Inner Content------*/
+
+/*Header*/
+.logo{width:133px; height:auto; margin:8px 0 0 5px; padding:5px 0; float:left; overflow:hidden;}
+.logo img{width:133px; height:auto; margin:0; padding:0; float:left;}
+
+.menu-right{width:auto; height:54px; margin:0; padding:0; float:right; text-align:center;}
+.menu-right .user-name{width:auto; height:auto; margin:8px 10px 0 0; padding:0; float:left; text-align:right; font-size:14px; color:#fff;}
+.menu-right .user-name strong{font-size:16px;}
+.menu-right a.user-icon{width:60px; height:60px; margin:0; padding:0; float:right; text-align:center; background-color:#75070c; background-position:center -26px;}
+.menu-left a.menu-left-icon, .menu-right a.user-icon{background-image:url(../images/icons-top-menu.png); background-repeat:no-repeat;}
+
+/*Top Menu Drop*/
+.menu-right .dropdown-menu-right a, .menu-right .dropdown-menu-right a:hover{background-image:url(../images/icons-top-menu-drop.png); background-repeat:no-repeat; padding:10px 10px 10px 40px; border-bottom:1px solid #ccc;}
+ .menu-right .dropdown-menu-right a:hover{background-color:#eeeeee;}
+.menu-right .dropdown-menu-right a.account{background-position:10px 10px;}
+.menu-right .dropdown-menu-right a.profile{background-position:10px -30px;}
+.menu-right .dropdown-menu-right a.change-pass{background-position:10px -65px;}
+.menu-right .dropdown-menu-right a.logout{background-position:10px -102px;}
+
+/*Grid*/
+.form-gird{width:100%; height:auto; margin:0 0 10px 0; padding:0; float:left;}
+.form-gird ul{width:auto; height:auto; margin:0 0 0px 0; padding:0; float:left; list-style:none;}
+.form-gird ul li{width:auto; height:auto; margin:0 8px 0 0; padding:0; float:left; list-style:none; display:inline;}
+
+.ExpertTips .th-RaceDate{min-width:80px;}
+.ExpertTips  .th-Price{min-width:70px;}
+.ExpertTips  .th-Shares{min-width:70px;}
+.ExpertTips  .th-Status{min-width:80px;}
+
+.SelectionTotal{width:100%; height:auto; margin:0 0 0px 0; padding:0; float:left; list-style:none; font-size:12px;}
+.SelectionTotal li{width:auto; height:auto; margin:0 0 0 0; padding:0; float:left; list-style:none;}
+.SelectionTotal li.Selection{width:230px;}
+.SelectionTotal li.Total{width:317px;}
+.Section-table{width:197px; border:solid 1px #ccc; border-bottom:solid 0px #ccc; font-size:12px;}
+.Section-table tbody tr td{border-bottom:solid 1px #ccc; padding:7px 5px;}
+.Section-table td.leg{width:23%; border-right:solid 1px #ccc; background:#eeeeee;}
+.Section-table td.numbs1{width:64%; border-right:solid 1px #ccc; background:#fff;}
+.Section-table td.numbs2{width:16%; background:#f7f7f7;}
+
+.TSD{width:100%; height:auto; margin:0 0 0 0; padding:0; float:left; list-style:none;}
+.TSD li{width:100%; height:auto; margin:0 0 10px 0; padding:0; float:left; list-style:none;}
+
+.TSD {width:100%; height:auto; margin:0 0 0 0; padding:0; float:left; list-style:none;}
+.TSD li{width:100%; height:auto; margin:0 0 10px 0; padding:0; float:left; list-style:none;}
+
+.TSD  .TS{width:100%; height:auto; margin:0 0 0 0; padding:0; float:left; list-style:none;}
+.TSD .TS li{width:auto; height:auto; margin:0 10px 0 0; padding:0; float:left; list-style:none;}
+.TSD .TS li.Total{width:128px;}
+.TSD .TS li.Shares{width:100px;}
+.TSD .TS li input[type="text"]{width:78px; margin:0 10px 0 0;}
+
+.TSD  .SCS{width:100%; height:auto; margin:0 0 0 0; padding:0; float:left; list-style:none;}
+.TSD .SCS li{width:auto; height:auto; margin:0 20px 0 0; padding:0; float:left; list-style:none;}
+.TSD .SCS li.Stake{width:118px;}
+.TSD .SCS li.Combo{width:65px;}
+.TSD .SCS li.Share{width:93px;}
+.TSD .SCS li input[type="text"]{width:100%; height:auto; margin:0 0 0 0; padding:8px 10px; background:#eeeeee; color:#000; font-size:22px; text-align:center;}
+.TSD li textarea.form-control{height:95px; resize:none; border-radius:0; font-size:12px;}
+
+.ExpertTips .form-gird, .TipsExpert  .form-gird, .Activity .form-gird, .TicketSettlement .form-gird{margin:0;}
+
+/*From*/
+.ExpertTips .btn-sm.pull-right{margin-left:10px;}
+
+
+
+
+
+

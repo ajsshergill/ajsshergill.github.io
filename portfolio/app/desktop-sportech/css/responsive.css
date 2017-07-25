@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+@media (min-width: 320px) and (max-width: 768px) {
+	
+}
+
+@media (max-width:1920px) {
+
+}
+
+@media (max-width:1280px) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	
+}
+
+@media (max-width:1024px) {
+	
+}
+
+@media (max-width:980px) {
+	
+}
+
+@media (max-width:900px) {
+	
+}
+
+@media (max-width:800px) {
+	
+}
+
+@media (max-width:768px) {
+	
+}
+
+/*Only for iPhone6+ landscape*/
+@media (max-width: 736px) {
+	
+}
+
+/*Only for iPhone6 landscape*/
+@media (max-width: 667px) {
+	
+}
+
+@media (max-width: 640px) {
+	
+}
+
+@media (max-width: 600px) {
+	
+}
+	
+@media (max-width: 568px) {
+	
+}
+
+@media (max-width: 480px) {
+	/*Login*/
+	.login-main{width:320px; margin-top:20px;}
+	.login-main h1{font-size:30px;}
+	.login-box .login-content ul li{margin-bottom:5px;}
+	
+	/*Header*/
+	.logo{width:33px;}
+	
+	/*Content*/
+	#content_wrapper{top:10px;}
+	
+	/*Form*/
+	.input-group .form-control{width:105px;}
+	.date-picker.custom-cal-icon{background-position:77px -82px;}
+	.forgot-popup .forgot-ul li{margin-bottom:10px;}
+	.form-gird ul li{width:auto; margin-bottom:5px;}
+	.Profile .form{margin-bottom:20px;}
+	.Profile .form ul li{margin:0;}
+	.Profile label, .SystemSetting .formlabel{width:100%;}
+	.Profile .colun, .SystemSetting .colun{float:none;}
+	.Profile .col-sm-4{padding:0;}
+	
+	/*Popup*/
+	.forgot-popup .modal-dialog, #Information .modal-dialog{width:auto;}
+	.forgot-popup .modal-dialog{margin-top:50px;}
+	
+	#Information .modal-dialog{margin-top:30px;}
+	.Inner .modal-dialog{width:auto; margin-top:30px;}
+	
+	.TSD .SCS li.Stake{width:auto; margin-bottom:10px;}
+	.TSD li textarea.form-control{width:230px;}
+	
+	.AddExpertTip .RaceTrackBet li, .AddUser .RaceTrackBet li{width:auto; margin-right:10px;}
+	.AddExpertTip .RaceTrackBet li.RaceDate input[type="text"], .AddUser .RaceTrackBet li.RaceDate input[type="text"]{width:80px;}
+	.AddExpertTip .RaceTrackBet li.Bet select, .AddUser .RaceTrackBet li.Bet select{width:auto;}
+	.TSD{margin-top:10px;}
+}
+
+/*Only for iPhone6+ portrait*/
+@media (max-width: 414px) {
+	
+}
+
+/*Only for iPhone6 portrait*/
+@media (max-width: 375px) {
+	
+}
+
+@media (max-width: 360px) {
+	
+}
+
+@media (max-width: 320px) {
+	/*Login*/
+	.login-main{width:300px; margin-top:20px;}
+	.login-main h1{font-size:30px;}
+	.forgot-password{margin:0 0 10px 0;}
+	.login-box .login-content ul li{margin-bottom:5px;}
+	input[type="button"].login-btn{float:left;}
+	
+	/*Header*/
+	.logo{width:33px;}
+	
+	/*Content*/
+	#content_wrapper{top:10px;}
+	
+	/*Form*/
+	.forgot-popup .forgot-ul li{margin-bottom:10px;}
+	
+	.ExpertTips .form-gird ul li{width:100%; margin-bottom:5px;}
+	.ExpertTips .input-group .form-control{width:115px;}
+	.ExpertTips .date-picker.custom-cal-icon{background-position:inherit -82px;}
+	
+	.Profile .form{margin-bottom:20px;}
+	.Profile .form ul li{margin:0;}
+	.Profile label, .SystemSetting .formlabel{width:100%;}
+	.Profile .colun, .SystemSetting .colun{float:none;}
+	.Profile .col-sm-4{padding:0;}
+	
+	/*Popup*/
+	.forgot-popup .modal-dialog, #Information .modal-dialog{width:auto;}
+	.forgot-popup .modal-dialog{margin-top:50px;}
+	
+	.Inner .modal-dialog{width:auto; margin-top:30px;}
+	.TSD .SCS li.Stake{width:auto; margin-bottom:10px;}
+	.TSD li textarea.form-control{width:230px;}
+	
+	.AddExpertTip .RaceTrackBet li, .AddUser .RaceTrackBet li{width:auto; margin-bottom:10px;}
+	.TSD{margin-top:10px;}
+}
