@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+
+
+	<title>Tea And Coffee Demo</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="" />
+	<meta name="keywords" content="tea, coffee, tea bigcommerce template, loose tea, oriental" />
+	
+	<link rel='canonical' href='https://teaandcoffee-demo.mybigcommerce.com/' />
+	
+	
+	
+	<link href="//fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css">
+
+	<link rel="shortcut icon" href="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/img/bc_favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script>
+	//<![CDATA[
+		(function(){
+			// this happens before external dependencies (and dom ready) to reduce page flicker
+			var node, i;
+			for (i = window.document.childNodes.length; i--;) {
+				node = window.document.childNodes[i];
+				if (node.nodeName == 'HTML') {
+					node.className += ' javascript';
+				}
+			}
+		})();
+	//]]>
+	</script>
+
+	<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/__master/Styles/styles.css" type="text/css" rel="stylesheet" /><link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/iselector.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/flexslider.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/slide-show.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/styles-slide-show.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/social.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/styles.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/light.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/theme.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/grid.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/responsive.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/Styles/font-awesome.css" media="all" type="text/css" rel="stylesheet" />
+<link href="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/superfish/css/store.css" type="text/css" rel="stylesheet" /><link type="text/css" rel="stylesheet" href="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/jquery/plugins/imodal/imodal.css" />
+
+	<!-- Tell the browsers about our RSS feeds -->
+	
+
+	<!-- Include visitor tracking code (if any) -->
+	
+
+	
+
+	
+
+	<script src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/jquery/1.12.4-patched/jquery.min.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/menudrop.js?"></script>
+	<script src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/iselector.js?"></script>
+	<script src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/jquery/plugins/jquery.flexslider.js"></script>
+    <script src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/viewport.js?"></script>
+
+	<!-- Theme bespoke js -->
+	<script src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/js/matchMedia.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/js/common.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/js/jquery.autobox.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/js/init.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/js/jquery.uniform.min.js"></script>
+	<script src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/js/main.js?"></script>
+
+	<script>
+	//<![CDATA[
+	config.ShopPath = 'https://teaandcoffee-demo.mybigcommerce.com';
+	config.AppPath = ''; // BIG-8939: Deprecated, do not use.
+	config.FastCart = 1;
+	config.ShowCookieWarning = !!0;
+	var ThumbImageWidth = 220;
+	var ThumbImageHeight = 290;
+	//]]>
+	</script>
+	<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/jquery/plugins/jquery.form.js"></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/jquery/plugins/imodal/imodal.js"></script>
+<script type="text/javascript">
+var BCData = {"csrf_token":"c221279cd39196a16f446e217c7e8ffb5e43557d9101558cf237ba8099027f36"};
+</script>
+
+	
+	<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/quicksearch.js"></script>
+	<!--[if lt IE 9]>
+	<script src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+    <body id="home">
+        
+<div id="DrawerMenu">
+    <div class="inner">
+        <div class="CategoryList" id="SideCategoryList">
+    <h3>Categories</h3>
+    <div class="BlockContent">
+        <div class="SideCategoryListFlyout">
+            <ul class="sf-menu sf-horizontal">
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/">Teas </a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/">Cosmopolis</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/">Dincidunteros</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/dincidunteros/">Dincidunteros</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/loremous-comodous/">Loremous comodous</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/loremous-comodous/commodos/">Commodos</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/namdos-hempus/">Namdos hempus</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/solutmades/">Solutmades</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/">Loremica</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/metropolitanos/">Metropolitanos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/metropolitanos/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/sarcuso/">Sarcuso</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/sarcuso/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/maecenas-1/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/malesuada-1/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/milancelos/">Milancelos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/milancelos/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/">Teaware</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/">Cosmopolis</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/dincidunteros/">Dincidunteros</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/dincidunteros/">Dincidunteros</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/loremous-comodous/">Loremous comodous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/namdos-hempus/">Namdos hempus</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/solutmades/">Solutmades</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/">Loremica</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/habitasse-1/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/metropolitanos/">Metropolitanos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/milancelos/">Milancelos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/milancelos/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/milancelos/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/milancelos/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/molateas-1/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/">Sarcuso</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/">Loose Leaf Tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/">Black tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/fermentumos-1/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/milancelos-1/">Milancelos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/">Rooibos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/cosmo-loremous-1/">Cosmo Loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/green-tea/">Green tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/milancelos/">Milancelos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/sarcus-1/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/">Herbal tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/cosmo-loremous/">Cosmo Loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/">I love CHAI</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/milancelos/">Milancelos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/">Tea Bags</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/">Cosmopolis</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loremica/">Loremica</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/">Metropolitanos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/">Milancelos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/">Sarcuso</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+
+        </div>
+    </div>
+</div>
+
+        <div class="BrandList Moveable Panel slist" id="SideShopByBrand" style="display: ">
+    <h3>Brands</h3>
+    <div class="BlockContent">
+        <ul class="treeview">
+            <li><a href="https://teaandcoffee-demo.mybigcommerce.com/american-specialties/">American Specialties</a></li><li><a href="https://teaandcoffee-demo.mybigcommerce.com/benjamin-button/">Benjamin Button</a></li><li><a href="https://teaandcoffee-demo.mybigcommerce.com/anna/">Anna</a></li><li><a href="https://teaandcoffee-demo.mybigcommerce.com/beekman/">Beekman</a></li><li><a href="https://teaandcoffee-demo.mybigcommerce.com/brands/sagaform/">Sagaform</a></li>
+            <li><a href="https://teaandcoffee-demo.mybigcommerce.com/brands/">View all brands</a></li>
+        </ul>
+    </div>
+</div>
+
+        <div class="Block Moveable Panel" id="SideCategoryShopByPrice" style="display:none;"></div>
+        <div class="AdditionalInformationList Moveable Panel slist" id="SideAdditionalInformation">
+    <h3>Additional Information</h3>
+    <div class="BlockContent">
+        <ul class="treeview">
+            <li><a href="/">Home</a></li>
+        </ul>
+        <ul class="pages-menu sf-menu sf-horizontal sf-js-enabled">
+		<li class=" ">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/collection/"><span>Collection</span></a>
+		
+	</li>	<li class="HasSubMenu ">
+		<a href="https://1.envato.market/OR77PZ"><span>Buy Tea And Coffee</span></a>
+		<ul>
+	<li><a href="http://themes.halothemes.com/documents/bc-tea-coffee-documentation/">Documentation</a></li><li><a href="https://bigcommerce.zfrcsk.net/c/3093631/1593870/2941">Open A Store For FREE</a></li><li><a href="http://https://halosoft.ticksy.com/">Get Support</a></li>
+</ul>
+	</li>	<li class="HasSubMenu ">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/lookbook/"><span>Lookbook</span></a>
+		<ul>
+	
+</ul>
+	</li>	<li class=" ">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/faqs/"><span>FAQS</span></a>
+		
+	</li>
+</ul>
+    </div>
+</div>
+
+        <div class="AccountNavigationList Moveable Panel slist" id="SideAccountNavigation">
+    <h3>Site Information</h3>
+    <div class="BlockContent js-side-account-menu">
+        <!-- Fill with content from TopMenu -->
+    </div>
+</div>
+<script>
+
+(function ($, window) {
+    'use strict';
+
+    var bcTheme = window.bcTheme || {};
+    bcTheme.mobile = bcTheme.mobile || {};
+
+    var MobileAccountMenu = function MobileAccountMenu(){};
+
+    MobileAccountMenu.prototype.init = function init ( selector ) {
+        this.$element = $(selector);
+
+        this.cloneTopMenu();
+        this.setCurrencyConvertor();
+        this.bindEvents();
+
+    };
+
+    MobileAccountMenu.prototype.cloneTopMenu = function cloneTopMenu () {
+        // Cloning from top menu as Globals don't work down here.
+        var $topMenuClone = $('.TopMenu ul').clone(),
+            $phoneNumber = $('<a />', {
+                'text': $('.js-drawermenu-store-phone-container').find('.phoneIcon').text(),
+                'href': 'tel:' + $('.js-drawermenu-store-phone-container').find('.js-drawermenu-store-phone').text()
+            });
+        //Modify the cloned menu to make phone clickable and hide stuff we don't need
+        $topMenuClone.find('.phoneIcon').replaceWith( $phoneNumber );
+        $topMenuClone.find('.js-drawermenu-cart').remove();
+        //append new menu to drawer
+        this.$element.append( $topMenuClone );
+    };
+
+    MobileAccountMenu.prototype.setCurrencyConvertor = function setCurrencyConvertor () {
+        this.$mobileCurrencyConverter = this.$element.find('.js-drawermenu-currency-converter');
+        this.$mobileSelectedCurrency = this.$mobileCurrencyConverter.find('.selected-currency');
+        this.$mobileCurrencyList = this.$mobileCurrencyConverter.find('.CurrencyList');
+    };
+
+    MobileAccountMenu.prototype.bindEvents = function bindEvents () {
+        var that = this;
+
+        this.$mobileSelectedCurrency.on('click', function(e) {
+            e.preventDefault();
+            that.$mobileSelectedCurrency.toggleClass('open');
+            that.$mobileCurrencyList.toggleClass('open');
+        });
+    };
+
+    bcTheme.mobile.accountMenu = new MobileAccountMenu();
+
+    window.bcTheme = window.bcTheme || bcTheme;
+
+}(jQuery, window));
+
+$(function () {
+    bcTheme.mobile.accountMenu.init('.js-side-account-menu');
+});
+
+</script>
+
+    </div>
+</div>
+<script>
+//<![CDATA[
+    $(function(){
+
+        //Drawer Subnavigation Accordion
+        $('#DrawerMenu li ul').addClass('drawer-subcat');
+        $('#DrawerMenu .drawer-subcat').prev('a').after('<span class="subcat-expand"></span>');
+        $('#DrawerMenu .subcat-expand').click(function(){
+            $(this).next('.drawer-subcat').toggleClass('expanded');
+            $(this).toggleClass('subcat-expanded');
+        });
+
+    });
+//]]>
+</script>
+
+
+        <div class="page">
+            <div class="header">
+	<div class="inner">
+
+		<div id="AjaxLoading">
+			<div class="ajax-loader">
+				<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/loader.png" alt="" />&nbsp;Loading... Please wait...
+			</div>
+		</div>
+
+		
+		
+<div class="TopMenu">
+    <div class="inner">
+        <ul style="display:">
+            <li class="js-drawermenu-store-phone-container"  >
+                <div class="phoneIcon">Call us on <span class="js-drawermenu-store-phone">1-800-000-8910</span></div>
+            </li>
+            <li style="display:none" class="HeaderLiveChat">
+                
+            </li>
+            <li style="display:" class="First">
+                <a href="https://teaandcoffee-demo.mybigcommerce.com/account.php">My Account</a>
+            </li>
+            <li><a href="https://teaandcoffee-demo.mybigcommerce.com/giftcertificates.php">Gift Certificates</a></li>
+            <li style="display:" class="wishLink">
+                <a href="https://teaandcoffee-demo.mybigcommerce.com/wishlist.php">Wish Lists</a>
+            </li>
+            <li style="display:">
+                <div><a href='https://teaandcoffee-demo.mybigcommerce.com/login.php' onclick=''>Sign in</a> or <a href='https://teaandcoffee-demo.mybigcommerce.com/login.php?action=create_account' onclick=''>Create an account</a></div>
+            </li>
+            <li class="js-drawermenu-currency-converter">
+                <div class="currency-converter">
+    <p>All prices are in <span><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/lib/flags/us.gif" border="0" alt="" role="presentation" /> USD</span></p>
+    <div class="CurrencyChooser" id="SideCurrencySelector">
+        <h2>Currency Converter</h2>
+        <div class="selected-currency">
+            <div class="clear"></div>
+        </div>
+        <div class="BlockContent">
+            <dl class="CurrencyList">
+                    <dd class="ChooseCurrencyBox" style="border-bottom: 0px;">
+        <a href="/?setCurrencyId=2" class="Sel">
+            <span class="Flag"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/lib/flags/us.gif" border="0" alt="" role="presentation" /></span>
+            <span class="Text">USD</span>
+        </a>
+    </dd>
+    <dd class="ChooseCurrencyBox" style="border-bottom: 0px;">
+        <a href="/?setCurrencyId=3" class="">
+            <span class="Flag"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/lib/flags/au.gif" border="0" alt="" role="presentation" /></span>
+            <span class="Text">AUD</span>
+        </a>
+    </dd>
+    <dd class="ChooseCurrencyBox" style="border-bottom: 0px;">
+        <a href="/?setCurrencyId=4" class="">
+            <span class="Flag"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/lib/flags/regions/eu.gif" border="0" alt="" role="presentation" /></span>
+            <span class="Text">Eur</span>
+        </a>
+    </dd>
+    <dd class="ChooseCurrencyBox" style="border-bottom: 0px;">
+        <a href="/?setCurrencyId=5" class="">
+            <span class="Flag"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/lib/flags/ca.gif" border="0" alt="" role="presentation" /></span>
+            <span class="Text">CAD</span>
+        </a>
+    </dd>
+    <dd class="ChooseCurrencyBox" style="border-bottom: 0px;">
+        <a href="/?setCurrencyId=6" class="">
+            <span class="Flag"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/lib/flags/cz.gif" border="0" alt="" role="presentation" /></span>
+            <span class="Text">Czech Koruna</span>
+        </a>
+    </dd>
+    <dd class="ChooseCurrencyBox" style="border-bottom: 0px;">
+        <a href="/?setCurrencyId=7" class="">
+            <span class="Flag"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/lib/flags/gb.gif" border="0" alt="" role="presentation" /></span>
+            <span class="Text">British Pound</span>
+        </a>
+    </dd>
+
+            </dl>
+        </div>
+    </div>
+</div>
+
+
+            </li>
+            <li class="last CartLink js-drawermenu-cart" style="display:">
+                <i class="icon icon-cart" title="View Cart">&nbsp;</i><a href="https://teaandcoffee-demo.mybigcommerce.com/cart.php" title="View Cart"><span></span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+		<div id="Header">
+			<div class="inner">
+				<div id="ToggleMenu" class="fa fa-bars normal"></div>
+				<div class="header-logo">
+					<a href="https://teaandcoffee-demo.mybigcommerce.com/"><img src="/product_images/hl-tea-and-coffee-logo_1600340179__90686.png" border="0" id="LogoImage" alt="Tea And Coffee Demo" /></a>
+
+				</div>
+				<div class="header-secondary">
+					<div id="SearchForm" class="cf">
+	<form action="https://teaandcoffee-demo.mybigcommerce.com/search.php" method="get" onsubmit="return check_small_search_form()">
+		<label for="search_query">Search</label>
+		<input type="text" name="search_query" id="search_query" class="Textbox autobox" value="Search" />
+		<input type="submit" class="Button" value="" name="Search" title="Search" />
+	</form>
+</div>
+
+<script type="text/javascript">
+	var QuickSearchAlignment = 'right';
+	var QuickSearchWidth = '390px';
+	lang.EmptySmallSearch = "You forgot to enter some search keywords.";
+	// uniform() is deprecated in Blueprint theme; remove binding below when removing uniform
+	$(document).ajaxComplete(function() {
+		$('input[type=checkbox], select').not('.UniApplied').uniform();
+	});
+</script>
+				</div>
+				<div id="cart-amount">
+					<a href="https://teaandcoffee-demo.mybigcommerce.com/cart.php" class="Cart"><span class="bag-handle"></span><span class="total">&nbsp;</span></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="PageMenu">
+			<div class="inner">
+				<div class="CategoryList" id="SideCategoryList">
+    <h3>Categories</h3>
+    <div class="BlockContent">
+        <div class="SideCategoryListFlyout">
+            <ul class="sf-menu sf-horizontal">
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/">Teas </a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/">Cosmopolis</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/">Dincidunteros</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/dincidunteros/">Dincidunteros</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/loremous-comodous/">Loremous comodous</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/loremous-comodous/commodos/">Commodos</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/namdos-hempus/">Namdos hempus</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/solutmades/">Solutmades</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/">Loremica</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/metropolitanos/">Metropolitanos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/metropolitanos/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/sarcuso/">Sarcuso</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/sarcuso/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/maecenas-1/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/malesuada-1/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/milancelos/">Milancelos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/milancelos/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/">Teaware</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/">Cosmopolis</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/dincidunteros/">Dincidunteros</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/dincidunteros/">Dincidunteros</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/loremous-comodous/">Loremous comodous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/namdos-hempus/">Namdos hempus</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/solutmades/">Solutmades</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/">Loremica</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/habitasse-1/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/metropolitanos/">Metropolitanos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/milancelos/">Milancelos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/milancelos/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/milancelos/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/milancelos/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/molateas-1/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/">Sarcuso</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/">Loose Leaf Tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/">Black tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/fermentumos-1/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/milancelos-1/">Milancelos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/">Rooibos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/cosmo-loremous-1/">Cosmo Loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/green-tea/">Green tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/milancelos/">Milancelos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/sarcus-1/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/">Herbal tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/cosmo-loremous/">Cosmo Loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/">I love CHAI</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/milancelos/">Milancelos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/">Tea Bags</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/">Cosmopolis</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loremica/">Loremica</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/">Metropolitanos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/">Milancelos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/">Sarcuso</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+
+        </div>
+    </div>
+</div>
+
+			</div>
+		</div>
+
+	</div>
+</div>
+            <div class="main">
+                <div class="inner">
+                    
+                    <div class="Content Widest" id="LayoutColumn1">
+                        <script type="text/javascript" src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/jquery/plugins/jquery.flexslider.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('.slide-show').flexslider({
+            slideshowSpeed: $('.slide-show').attr('data-swap-frequency') * 1000,
+            animation: "slide",
+            pauseOnHover: true,
+            controlNav: true,
+            directionNav: true
+        });
+    });
+</script>
+<div class="slide-show slide-show-render slide-show-render-full flexslider Panel" data-swap-frequency="5" id="HomeSlideShow">
+	<ol class="slides">
+		<li class="slide">
+	<a href="">
+		<div class="slide-content">
+				<div class="slide-overlay">
+					<h2 class="slide-heading" style="color: #ffffff">Teaware Collections from $80*</h2>
+					<p class="slide-text" style="color: #ffffff">Destibulum laoreet an risus porta quisque hasellus blandit lacinia neque multrices de loremous</p>
+					<div class="slide-button" style=""><span class="btn" style="color: #ffffff">Shop Now</span></div>
+				</div>
+				<span class="slide-image-wrapper">
+					<img class="slide-image" src="https://cdn11.bigcommerce.com/s-silrbypvg1/product_images/theme_images/slideshow-1__05771.jpg?t=1609823093" alt="Slide 1">
+				</span>
+		</div>
+	</a>
+</li><li class="slide">
+	<a href="">
+		<div class="slide-content">
+				<div class="slide-overlay">
+					<h2 class="slide-heading" style="color: #ffffff">Sale 70% off</h2>
+					<p class="slide-text" style="color: #ffffff">Destibulum laoree an porta quisque cosmoplis de milancelos. Limited-time offer, end ins:</p>
+					<div class="slide-button" style=""><span class="btn" style="color: #ffffff">Shop Now</span></div>
+				</div>
+				<span class="slide-image-wrapper">
+					<img class="slide-image" src="https://cdn11.bigcommerce.com/s-silrbypvg1/product_images/theme_images/slideshow-2__98391.jpg?t=1609823093" alt="Slide 2">
+				</span>
+		</div>
+	</a>
+</li><li class="slide">
+	<a href="">
+		<div class="slide-content">
+				<div class="slide-overlay">
+					<h2 class="slide-heading" style="color: #ffffff">Milancelos</h2>
+					<p class="slide-text" style="color: #ffffff">Destibulum laoreet an risus porta quisque hasellus blandit lacinia neque multrices de loremous</p>
+					<div class="slide-button" style=""><span class="btn" style="color: #ffffff">Shop Now</span></div>
+				</div>
+				<span class="slide-image-wrapper">
+					<img class="slide-image" src="https://cdn11.bigcommerce.com/s-silrbypvg1/product_images/theme_images/slideshow-3.jpg?t=1609823093" alt="">
+				</span>
+		</div>
+	</a>
+</li>
+	</ol>
+</div>
+<!-- //slide-show -->
+                        
+                        
+                        <div class="Block FeaturedProducts Moveable Panel"  id="HomeFeaturedProducts" style="display:">
+    <h3>Featured Products</h3>
+    <div class="BlockContent">
+        <ul class="ProductList">
+            <li class="Odd">
+	<div class="ProductImage QuickView" data-product="103">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/delementum-milancelos-preteus-tomuir/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/103/images/389/tea-4__15884.1599491891.220.290.jpg?c=1" alt="Delementum milancelos preteus tomuir" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/delementum-milancelos-preteus-tomuir/" class="pname">Delementum milancelos preteus tomuir</a>
+	</div>
+	<em class="p-price"><span class="SalePrice">$18.00</span></em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/delementum-milancelos-preteus-tomuir/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="77">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/cosmo-naminos-delementum-bra/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/77/images/436/tea-13__49234.1606970517.220.290.jpg?c=1" alt="Cosmo naminos delementum bra" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/cosmo-naminos-delementum-bra/" class="pname">Cosmo naminos delementum bra</a>
+	</div>
+	<em class="p-price">$49.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/cosmo-naminos-delementum-bra/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Odd">
+	<div class="ProductImage QuickView" data-product="117">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/darturien-laciniado-magnis-meros/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/117/images/463/tea-20__99209.1607661456.220.290.jpg?c=1" alt="Darturien laciniado magnis  meros" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/darturien-laciniado-magnis-meros/" class="pname">Darturien laciniado magnis  meros</a>
+	</div>
+	<em class="p-price">$30.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/darturien-laciniado-magnis-meros/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="94">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/darturien-magnis-meros-laciniado/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/94/images/405/tea-7__39432.1606970603.220.290.jpg?c=1" alt="Darturien magnis meros laciniado" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/darturien-magnis-meros-laciniado/" class="pname">Darturien magnis meros laciniado</a>
+	</div>
+	<em class="p-price">$34.95</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/darturien-magnis-meros-laciniado/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+                        <div class="Block TopSellers Moveable Panel" id="SideTopSellers" style="display:">
+    <h3>Current Top Sellers</h3>
+    <div class="BlockContent">
+        <ul class="ProductList">
+            <li class="Odd">
+	<div class="ProductImage QuickView" data-product="103">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/delementum-milancelos-preteus-tomuir/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/103/images/389/tea-4__15884.1599491891.220.290.jpg?c=1" alt="Delementum milancelos preteus tomuir" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/delementum-milancelos-preteus-tomuir/" class="pname">Delementum milancelos preteus tomuir</a>
+	</div>
+	<em class="p-price"><span class="SalePrice">$18.00</span></em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/delementum-milancelos-preteus-tomuir/" class="btn icon-Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+    <div class="ProductImage QuickView" data-product="97">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/tiered-wire-basket/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/97/images/395/tea-6__44152.1606965264.220.290.jpg?c=1" alt="Naminos dementus a dincidunto" /></a>
+    </div>
+    <div class="ProductDetails">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/tiered-wire-basket/" class="pname">Naminos dementus a dincidunto</a>
+    </div>
+    <em class="p-price">$119.95</em>
+    <div class="ProductPriceRating">
+        <span class="Rating Rating0">
+            <img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+        </span>
+    </div>
+    <div class="ProductActionAdd" style="display:;">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/tiered-wire-basket/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+    </div>
+</li><li class="Odd">
+    <div class="ProductImage QuickView" data-product="86">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/namin-hentum-tosmo-delemrin/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/86/images/418/tea-10__00731.1606969366.220.290.jpg?c=1" alt="Namin hentum tosmo delemrin" /></a>
+    </div>
+    <div class="ProductDetails">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/namin-hentum-tosmo-delemrin/" class="pname">Namin hentum tosmo delemrin</a>
+    </div>
+    <em class="p-price">$225.00</em>
+    <div class="ProductPriceRating">
+        <span class="Rating Rating0">
+            <img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+        </span>
+    </div>
+    <div class="ProductActionAdd" style="display:;">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/namin-hentum-tosmo-delemrin/" class="btn icon-Pre-Order Now" title="Pre-Order Now">Pre-Order Now</a>
+    </div>
+</li><li class="Even">
+    <div class="ProductImage QuickView" data-product="88">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/ullamcorper-tempor-pretium-aliquet/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/88/images/416/tea-9__02762.1606966318.220.290.jpg?c=1" alt="Ullamcorper tempor pretium aliquet" /></a>
+    </div>
+    <div class="ProductDetails">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/ullamcorper-tempor-pretium-aliquet/" class="pname">Ullamcorper tempor pretium aliquet</a>
+    </div>
+    <em class="p-price">$49.50</em>
+    <div class="ProductPriceRating">
+        <span class="Rating Rating0">
+            <img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+        </span>
+    </div>
+    <div class="ProductActionAdd" style="display:;">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/ullamcorper-tempor-pretium-aliquet/" class="btn icon-Out of stock" title="Out of stock">Out of stock</a>
+    </div>
+</li><li class="Odd">
+    <div class="ProductImage QuickView" data-product="111">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/dinterdum-pretium-condimento/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/111/images/377/tea-1__36480.1599455084.220.290.jpg?c=1" alt="Dinterdum pretium condimento" /></a>
+    </div>
+    <div class="ProductDetails">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/dinterdum-pretium-condimento/" class="pname">Dinterdum pretium condimento</a>
+    </div>
+    <em class="p-price"><strike class="RetailPriceValue">$9.90</strike> <span class="SalePrice">$8.90</span></em>
+    <div class="ProductPriceRating">
+        <span class="Rating Rating0">
+            <img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+        </span>
+    </div>
+    <div class="ProductActionAdd" style="display:;">
+        <a href="https://teaandcoffee-demo.mybigcommerce.com/dinterdum-pretium-condimento/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+    </div>
+</li>
+        </ul>
+    </div>
+</div>
+                        <div class="Block NewProducts Moveable Panel" id="HomeNewProducts" style="display:">
+    <h3>New Products</h3>
+    <div class="BlockContent">
+        <ul class="ProductList">
+            <li class="Odd">
+	<div class="ProductImage QuickView" data-product="121">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/product-demo/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/121/images/492/tea-23__81459.1607669359.1280.1280__44807.1637918708.220.290.jpg?c=1" alt="product-demo" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/product-demo/" class="pname">product-demo</a>
+	</div>
+	<em class="p-price"><strike class="RetailPriceValue">$59.90</strike> <span class="SalePrice">$40.00</span></em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/product-demo/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="120">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/praneu-homuir-mollis-pharetras/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/120/images/478/tea-23__81459.1607669359.220.290.jpg?c=1" alt="Praneu homuir mollis pharetras" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/praneu-homuir-mollis-pharetras/" class="pname">Praneu homuir mollis pharetras</a>
+	</div>
+	<em class="p-price"><strike class="RetailPriceValue">$59.90</strike> <span class="SalePrice">$40.00</span></em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/praneu-homuir-mollis-pharetras/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Odd">
+	<div class="ProductImage QuickView" data-product="119">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/homuir-mollis-pharetras-praneu/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/119/images/477/tea-22__89814.1607662414.220.290.jpg?c=1" alt="Homuir mollis pharetras praneu" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/homuir-mollis-pharetras-praneu/" class="pname">Homuir mollis pharetras praneu</a>
+	</div>
+	<em class="p-price"><strike class="RetailPriceValue">$189.90</strike> <span class="SalePrice">$169.90</span></em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/homuir-mollis-pharetras-praneu/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="118">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/mollis-pharetras-praneu-homuir/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/118/images/468/tea-15__21274.1607661947.220.290.jpg?c=1" alt="Mollis pharetras praneu homuir" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/mollis-pharetras-praneu-homuir/" class="pname">Mollis pharetras praneu homuir</a>
+	</div>
+	<em class="p-price"><strike class="RetailPriceValue">$189.90</strike> <span class="SalePrice">$169.90</span></em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/mollis-pharetras-praneu-homuir/" class="btn icon-Out of stock" title="Out of stock">Out of stock</a>
+	</div>
+</li><li class="Odd">
+	<div class="ProductImage QuickView" data-product="117">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/darturien-laciniado-magnis-meros/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/117/images/463/tea-20__99209.1607661456.220.290.jpg?c=1" alt="Darturien laciniado magnis  meros" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/darturien-laciniado-magnis-meros/" class="pname">Darturien laciniado magnis  meros</a>
+	</div>
+	<em class="p-price">$30.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/darturien-laciniado-magnis-meros/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="116">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/laciniado-magnis-darturien-meros/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/116/images/459/tea-19__97002.1607660802.220.290.jpg?c=1" alt="Laciniado magnis darturien meros" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/laciniado-magnis-darturien-meros/" class="pname">Laciniado magnis darturien meros</a>
+	</div>
+	<em class="p-price"><span class="SalePrice">$30.00</span></em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/laciniado-magnis-darturien-meros/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Odd">
+	<div class="ProductImage QuickView" data-product="115">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/tosmo-hentum-namin-delemrin/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/115/images/458/tea-18__43955.1608021358.220.290.jpg?c=1" alt="Tosmo hentum namin delemrin" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/tosmo-hentum-namin-delemrin/" class="pname">Tosmo hentum namin delemrin</a>
+	</div>
+	<em class="p-price">$129.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/tosmo-hentum-namin-delemrin/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li><li class="Even">
+	<div class="ProductImage QuickView" data-product="114">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/dincidunto-naminos-dementus/"><img src="https://cdn11.bigcommerce.com/s-silrbypvg1/products/114/images/450/tea-16__38172.1607660204.220.290.jpg?c=1" alt="Dincidunto naminos dementus" /></a>
+	</div>
+	<div class="ProductDetails">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/dincidunto-naminos-dementus/" class="pname">Dincidunto naminos dementus</a>
+	</div>
+	<em class="p-price">$89.00</em>
+	<div class="ProductPriceRating">
+		<span class="Rating Rating0">
+			<img src="https://cdn11.bigcommerce.com/r-4b20dad619e29ebf3490f7f35369a8220637ce48/themes/ClassicNext/images/IcoRating0.png" alt="" style="" />
+		</span>
+	</div>
+	<div class="ProductActionAdd" style="display:;">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/dincidunto-naminos-dementus/" class="btn icon-Choose Options" title="Choose Options">Choose Options</a>
+	</div>
+</li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+	<div class="inner">
+
+		
+<div class="newsletter-subscription" id="SideNewsletterBox">
+	<div class="inner">
+		<div class="grid">
+			<div class="grid__item one-third">
+
+				<h4>Sign up for our newsletter</h4>
+				<div>Get the latest updates on new products and upcoming sales</div>
+			</div>
+			<div class="grid__item two-thirds">
+
+				<form action="https://teaandcoffee-demo.mybigcommerce.com/subscribe.php" method="post" id="subscribe_form" class="subscribe_form" name="subscribe_form">
+					<input type="hidden" name="action" value="subscribe" />
+					<div class="grid">
+						<div class="grid__item two-fifths">
+							<label for="nl_first_name">Name</label>
+							<input class="Textbox autobox" value="Name" id="nl_first_name" name="nl_first_name" type="text" />
+						</div>
+						<div class="grid__item two-fifths">
+							<label for="nl_email">Email</label>
+							<input class="Textbox autobox" value="Email" id="nl_email" name="nl_email" type="email" />
+						</div>
+						<div class="grid__item one-fifth">
+
+							<input value="Submit" class="btn" type="submit" />
+
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+// <!--
+	$('#subscribe_form').submit(function() {
+		if($('#nl_first_name').val() == '') {
+			alert('You forgot to type in your first name.');
+			$('#nl_first_name').focus();
+			return false;
+		}
+
+		if($('#nl_email').val() == '') {
+			alert('You forgot to type in your email address.');
+			$('#nl_email').focus();
+			return false;
+		}
+
+		if($('#nl_email').val().indexOf('@') == -1 || $('#nl_email').val().indexOf('.') == -1) {
+			alert('Please enter a valid email address, such as john@example.com.');
+			$('#nl_email').focus();
+			$('#nl_email').select();
+			return false;
+		}
+
+		// Set the action of the form to stop spammers
+		$('#subscribe_form').append("<input type=\"hidden\" name=\"check\" value=\"1\" \/>");
+		return true;
+
+	});
+// -->
+</script>
+
+
+
+		<div class="footer-main">
+			<div class="inner">
+				<div class="footer-columns grid">
+					<div class="grid__item one-quarter"><h4>Quick Links</h4><ul class="pages-menu sf-menu sf-horizontal sf-js-enabled">
+		<li class=" ">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/collection/"><span>Collection</span></a>
+		
+	</li>	<li class="HasSubMenu ">
+		<a href="https://1.envato.market/OR77PZ"><span>Buy Tea And Coffee</span></a>
+		<ul>
+	<li><a href="http://themes.halothemes.com/documents/bc-tea-coffee-documentation/">Documentation</a></li><li><a href="https://bigcommerce.zfrcsk.net/c/3093631/1593870/2941">Open A Store For FREE</a></li><li><a href="http://https://halosoft.ticksy.com/">Get Support</a></li>
+</ul>
+	</li>	<li class="HasSubMenu ">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/lookbook/"><span>Lookbook</span></a>
+		<ul>
+	
+</ul>
+	</li>	<li class=" ">
+		<a href="https://teaandcoffee-demo.mybigcommerce.com/faqs/"><span>FAQS</span></a>
+		
+	</li>
+</ul></div>
+					<div class="grid__item one-quarter"><div class="Block CategoryList Panel">
+    <h4>Categories</h4>
+    <div class="BlockContent">
+        <ul class="sf-menu sf-horizontal">
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/">Teas </a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/">Cosmopolis</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/cosmopolis/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/">Dincidunteros</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/dincidunteros/">Dincidunteros</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/loremous-comodous/">Loremous comodous</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/loremous-comodous/commodos/">Commodos</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/namdos-hempus/">Namdos hempus</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/dincidunteros/solutmades/">Solutmades</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/">Loremica</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/loremica/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/metropolitanos/">Metropolitanos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/metropolitanos/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/sarcuso/">Sarcuso</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/sarcuso/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/maecenas-1/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/malesuada-1/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/milancelos/">Milancelos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teas/milancelos/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/">Teaware</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/">Cosmopolis</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/cosmopolis/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/dincidunteros/">Dincidunteros</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/dincidunteros/">Dincidunteros</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/loremous-comodous/">Loremous comodous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/namdos-hempus/">Namdos hempus</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/dincidunteros/solutmades/">Solutmades</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/">Loremica</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/habitasse-1/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/loremica/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/metropolitanos/">Metropolitanos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/metropolitanos/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/milancelos/">Milancelos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/milancelos/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/milancelos/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/milancelos/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/molateas-1/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/">Sarcuso</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/teaware/sarcuso/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/">Loose Leaf Tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/">Black tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/fermentumos-1/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/milancelos-1/">Milancelos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/black-tea/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/">Rooibos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/cosmo-loremous-1/">Cosmo Loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/rooibos/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/green-tea/">Green tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/green-tea/milancelos/">Milancelos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/sarcus-1/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/">Herbal tea</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/cosmo-loremous/">Cosmo Loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/herbal-tea/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/">I love CHAI</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/milancelos/">Milancelos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loose-leaf-tea/i-love-chai/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/">Tea Bags</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/">Cosmopolis</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/cosmopolis/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/loremica/">Loremica</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/loremica/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/">Metropolitanos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/commodos/">Commodos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/fermentumos/">Fermentumos</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/habitasse/">Habitasse</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/metropolitanos/sarcus/">Sarcus</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/">Milancelos</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/milancelos/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/">Sarcuso</a><ul>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/cosmo-loremous/">Cosmo loremous</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/maecenas/">Maecenas</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/malesuada/">Malesuada</a></li>
+<li><a href="https://teaandcoffee-demo.mybigcommerce.com/tea-bags/sarcuso/molateas/">Molateas</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+
+    </div>
+</div></div>
+					<div class="grid__item one-quarter"><div class="BrandList Moveable Panel slist" id="SideShopByBrand" style="display: ">
+    <h4>Brands</h4>
+    <div class="BlockContent">
+        <ul class="treeview">
+            <li><a href="https://teaandcoffee-demo.mybigcommerce.com/american-specialties/">American Specialties</a></li><li><a href="https://teaandcoffee-demo.mybigcommerce.com/benjamin-button/">Benjamin Button</a></li><li><a href="https://teaandcoffee-demo.mybigcommerce.com/anna/">Anna</a></li><li><a href="https://teaandcoffee-demo.mybigcommerce.com/beekman/">Beekman</a></li><li><a href="https://teaandcoffee-demo.mybigcommerce.com/brands/sagaform/">Sagaform</a></li>
+            <li><a href="https://teaandcoffee-demo.mybigcommerce.com/brands/">View all brands</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+					<div class="grid__item one-quarter"><div id="socnet" class="Block SocialConnect Moveable Panel">
+	<ul>
+		<li><a href="https://www.themevale.com/" target="_blank" class="icon-social icon-facebook" title="Facebook">Facebook</a></li>
+<li><a href="https://www.themevale.com/" target="_blank" class="icon-social icon-twitter" title="Twitter">Twitter</a></li>
+<li><a href="https://www.themevale.com/" target="_blank" class="icon-social icon-pinterest" title="Pinterest">Pinterest</a></li>
+<li><a href="https://www.themevale.com/" target="_blank" class="icon-social icon-instagram" title="Instagram">Instagram</a></li>
+
+	</ul>
+</div></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-links">
+			<div class="inner">
+				<p>
+					<span id="currencyPrices">All prices are in <span title='USD'>USD</span>.</span> &copy; 2024 Tea And Coffee Demo. <a href="https://teaandcoffee-demo.mybigcommerce.com/sitemap/"><span>Sitemap</span></a>
+
+              		<span class="powered-by">Powered by <a rel="nofollow" href="http://www.bigcommerce.com">BigCommerce</a></span>
+                </p>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/bc_pinstrumentation.min.js"></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/superfish/js/jquery.bgiframe.min.js"></script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/superfish/js/superfish.js"></script>
+<script type="text/javascript">
+    $(function(){
+        if (typeof $.fn.superfish == "function") {
+            $("ul.sf-menu").superfish({
+                delay: 800,
+                dropShadows: false,
+                speed: "fast"
+            })
+            .find("ul")
+            .bgIframe();
+        }
+    })
+</script>
+<script type="text/javascript" src="https://cdn11.bigcommerce.com/r-70a4a46181455673280ec33ef9d3f4054f6b83b8/javascript/visitor.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	// attach fast cart event to all 'add to cart' link
+	$(".ProductActionAdd a[href*='cart.php?action=add']").click(function(event) {
+		fastCartAction($(this).attr('href'));
+		return false;
+	});
+});
+</script>
+
+
+        </div>
+    <script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/csrf-protection-header-95f3d9ac8c049e3ed132c83a168cf1d6a8ed0237.js"></script><script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/remove-single-wishlist-delete-button-23792eebd3d4edd8f14445bce1bd408a72ad5adc.js"></script></body>
+</html>

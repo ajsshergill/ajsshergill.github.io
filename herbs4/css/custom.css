@@ -1,0 +1,26 @@
+.padding-top2px{
+	/*padding-top: 2px !important;*/
+}
+.announcement-item-inner, .header-top .navUser-section--currency .navUser-action {
+	font-size: 11px ;
+}
+.navPages-list .navPages-item>.navPages-action .text, .navPages-list-megamenu .navPages-item>.navPages-action  {
+    font-size: 12px !important;
+}
+
+.navPages{
+	text-align: center;
+}
+#menu{
+	width: 100%;
+}
+#menu .navPages{
+    text-align: center;
+}
+
+.navPages-list-megamenu .navPages-label.sale-label{
+	z-index: 1;
+	top: -8px;
+}
+.navPages-list-megamenu .navPages-label.new-label{
+}
