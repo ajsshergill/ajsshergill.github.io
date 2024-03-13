@@ -24,3 +24,9 @@
 }
 .navPages-list-megamenu .navPages-label.new-label{
 }
+.halo_home_banner_two_images .banner-list .banner-item .content .content-inner .title, .halo_home_banner_two_images .banner-list .banner-item .content .content-inner .desc{
+	color: #000 !important;
+}
+.halo_home_banner_two_images .banner-list .banner-item .content .content-inner .title {
+	font-size: 50px !important;
+}
